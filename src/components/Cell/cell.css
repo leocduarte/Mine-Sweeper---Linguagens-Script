@@ -1,0 +1,55 @@
+.cell button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: #c0c0c0;
+}
+
+.cell button:hover {
+    background: #808080;
+    border: 2px solid black;
+}
+
+.cell button .emoji {
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    z-index: 1;
+}
+
+.cell button.revealed {
+    background: #ffffff;
+}
+
+.cell button.question {
+    background: #E0CC00;
+}
+
+.cell button.flag {
+    background: #4BE069;
+}
+
+.cell button#value1 {
+    color: #0100fa;
+}
+.cell button#value2 {
+    color: #017f01;
+}
+.cell button#value3 {
+    color: #fd0001;
+}
+.cell button#value4 {
+    color: #010085;
+}
+.cell button#value5 {
+    color: #7f0102;
+}
+.cell button#value6 {
+    color: #00807f;
+}
+.cell button#value7 {
+    color: #000000;
+}
+.cell button#value8 {
+    color: #808080;
+}
